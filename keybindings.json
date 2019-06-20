@@ -1,0 +1,28 @@
+// Platzieren Sie Ihre Tastenzuordnungen in dieser Datei, um die Standardwerte zu überschreiben.auto[]
+// %AppData%  =>  \AppData\Roaming\Roaming\Code\User
+[
+  {
+    "key": "f12",
+    "command": "workbench.action.files.saveAs",
+    "when": "editorTextFocus"
+ },
+ {
+    "key": "ctrl+t",
+    "command": "editor.action.trimTrailingWhitespace",
+    "when": "editorTextFocus"
+ },
+ {
+    "key": "ctrl+u",
+    "command": "editor.action.transformToUppercase",
+    "when": "editorTextFocus"
+ },
+ {
+    "key": "ctrl+l",
+    "command": "editor.action.transformToLowercase",
+    "when": "editorTextFocus"
+ },
+ {
+  "key": "ctrl+shift+c",
+  "command": "odb-task.compileSqlPlus"
+ }
+]

@@ -1,0 +1,45 @@
+// %AppData%  =>  \AppData\Roaming\Roaming\Code\User
+{
+  "breadcrumbs.enabled": true
+// -------------------------------------------------------------------------- //
+, "editor.fontFamily": "Consolas, 'Courier New', monospace"
+, "editor.fontSize": 14
+, "editor.letterSpacing": 0
+, "editor.minimap.enabled": false
+, "editor.multiCursorModifier": "alt"
+, "editor.tabSize": 2
+, "explorer.confirmDelete": false
+, "extensions.autoCheckUpdates": true
+, "extensions.autoUpdate": false
+, "extensions.ignoreRecommendations": false
+// -------------------------------------------------------------------------- //
+, "files.encoding": "utf8"
+, "files.insertFinalNewline": true
+// -------------------------------------------------------------------------- //
+, "material-icon-theme.folders.color": "#90a4ae"
+, "material-icon-theme.showUpdateMessage": false
+// -------------------------------------------------------------------------- //
+, "odb-task.auto-save": true
+, "odb-task.sqlplus-path": "sqlplus"
+// -------------------------------------------------------------------------- //
+, "search.location": "panel"
+// -------------------------------------------------------------------------- //
+, "telemetry.enableTelemetry": false
+, "telemetry.enableCrashReporter": false
+, "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+// -------------------------------------------------------------------------- //
+, "update.enableWindowsBackgroundUpdates": false
+, "update.mode": "default"
+// -------------------------------------------------------------------------- //
+, "window.zoomLevel": -0.2
+, "workbench.panel.defaultLocation": "right"
+, "workbench.iconTheme": "material-icon-theme"
+, "workbench.editor.openPositioning": "right"
+, "workbench.colorCustomizations": {
+      "editor.lineHighlightBackground": "#4e3a3a"
+    , "editor.selectionBackground": "#65794b"
+    , "editor.selectionHighlightBackground": "#665151ce"
+    , "editor.wordHighlightBackground": "#00f"
+    , "editorCursor.foreground": "#f0f0c2"
+  }
+}
