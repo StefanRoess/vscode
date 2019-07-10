@@ -1,0 +1,94 @@
+// https://snippet-generator.app
+
+// Place your snippets for plsql here. Each snippet is defined under a snippet name and has a prefix, body and
+// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+// same ids are connected.
+// Example:
+// "Print to console": {
+// 	"prefix": "log",
+// 	"body": [
+// 		"console.log('$1');",
+// 		"$2"
+// 	],
+// 	"description": "Log output to console"
+// }
+//
+// Datei ist zu speichern in %appdata%\Roaming\Code\User\snippets\plsql.json
+
+{
+  "create package specification": {
+    "prefix": "crepack_spec",
+    "body": [
+      "create or replace package ${1:package_name}",
+      "as",
+      "  /* ========================================================================== */",
+      "  /* ========================================================================== */",
+      "  /* ========================================================================== */",
+      "",
+      "end ${1:package_name}",
+      "/"
+    ],
+    "description": "Create Package Specification"
+  },
+
+  "create package body": {
+    "prefix": "crepack_body",
+    "body": [
+      "create or replace package body ${1:package_name}",
+      "as",
+      "  /* ========================================================================== */",
+      "  /* ========================================================================== */",
+      "  /* ========================================================================== */",
+      "",
+      "/* ========================================================================== */",
+      "end ${1:package_name}",
+      "/"
+    ],
+    "description": "Create Package Body"
+  },
+
+  "new-comment": {
+    "prefix": "comment",
+    "body": [
+      "  /* ========================================================================== */",
+      "  /* ========================================================================== */",
+      "  /* ========================================================================== */",
+      "  ------------------------------------------------------------ ",
+      "  -- Purpose: $1 ",
+      "  -- ",
+      "  -- Remarks: $2",
+      "  -- ",
+      "  -- Call Example: $3",
+      "  -- ",
+      "  -- Who     YYYY-MM-DD   Description ",
+      "  -- ------  -----------  ------------------------------------ ",
+      "  -- SRO     $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE   Created ",
+      "  ------------------------------------------------------------ ",
+    ],
+    "description": "New Comment"
+  },
+
+  "select from": {
+    "prefix": "ssf",
+    "body": [
+      "select * from ${1:table_name}",
+      ";"
+    ],
+    "description": "select * from table_name"
+  },
+
+  "select into": {
+    "prefix": "sif",
+    "body": [
+      "select ${1:field_name}",
+      "  into ${2:variable_name}",
+      "  from ${3:table_name}",
+      "  where 1=1",
+      "  and ${4:column_name} = ${5:column_name}",
+      ";"
+    ],
+    "description": "select var into from table_name where 1=1 and ..."
+	}
+}
+
